@@ -4,7 +4,9 @@ console.log("two");
 
 console.log("three");
 
-// This statements/ instructions will print in a same order as written// synchronous 
+// This statements // instructions will print in a same order as written
+
+// synchronous 
 
 function helloPrint(){
     console.log("Hello ");
@@ -32,4 +34,5 @@ setTimeout(() => {
 
 console.log("four");
 
-console.log("five"); //this all console statements will print instant then setTimout unction as per its condition
+console.log("five"); //this all console statements will print instant 
+                    //then setTimout unction as per its condition
