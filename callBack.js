@@ -28,3 +28,17 @@ setTimeout (welcome,7000);
  
 // we used welcome arrow function from callback asynchronous 
 //that is we;come is passed as argument here 
+
+
+function mul(p, q){
+    console.log(p*q);
+}
+
+mul(6,3);
+
+function calculateThis (r,s){
+    return (r**s) ;
+}
+
+calculateThis(2,3);
+
