@@ -1,6 +1,6 @@
 # practice javascript with this examples
-# introduction to javascript
-# First Program
+ introduction to javascript
+ First Program
 
 
 
