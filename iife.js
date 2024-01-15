@@ -25,3 +25,21 @@ function getData (dataId){
     console.log("End of data");
 
 })();
+
+//modern javascript Invoked Function Expressions (IIFEs)
+//don't need for calling a functions
+
+// normal function used in iifes
+ (function() {
+    ....
+     }) ();
+
+arrow function syntax
+     ( ()  =>{
+
+     }) ();
+
+     async function syntax
+     ( async () =>{
+
+     }) ();
