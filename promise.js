@@ -59,3 +59,36 @@
 // p1.catch((res) => {
 //     console.log("error we get is", res);
 // })
+
+//example to check two async function data on by one 
+
+// function asycFunc1(){
+//     return new Promise ((resolve,reject) =>{
+//         setTimeout(() => {
+//             console.log("data1");
+//             resolve("success"); // dont miss resolve to give some value
+//         }, 4000);
+//     });
+// }
+// function asycFunc2(){
+//     return new Promise ((resolve,reject) =>{
+//         setTimeout(() => {
+//             console.log("data2");
+//             resolve("success");
+
+//         }, 4000);
+//     });
+// }
+
+// console.log("fetching data1...");
+// let p1= asycFunc1();
+// p1.then((res)=>{
+//     console.log(res);
+// });
+
+// console.log("fetching data2...");
+// let p2= asycFunc2();
+// p2.then((res)=>{
+//     console.log(res);
+// });
+ //will give same time output of console statements and then after timeout the promise result
