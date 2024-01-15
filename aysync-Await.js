@@ -48,3 +48,38 @@ console.log("wait for 3 sec to get the your data");
 //     });
 // });
 // 
+//solving this promises chains by using asyn-await functions below
+
+async function getAllData(){
+    console.log("wait for 3 sec your data is coming");
+    console.log("fetching data 77....");
+    await getData(77);
+    
+    console.log("fetching data 88....");
+
+    await getData(88);
+    console.log("fetching data 99....");
+
+    await getData(99);
+    console.log("End of data");
+
+}
+getAllData(); 
+
+
+//Invoked Function Expressions (IIFEs)
+(async function (){
+    console.log("wait for 3 sec your data is coming");
+    console.log("fetching data 77....");
+    await getData(77);
+    
+    console.log("fetching data 88....");
+
+    await getData(88);
+    console.log("fetching data 99....");
+
+    await getData(99);
+    console.log("End of data");
+
+})(); //modern javascript Invoked Function Expressions (IIFEs)
+//don't need for calling a functions
