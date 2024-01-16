@@ -1,17 +1,28 @@
 
-console.log("Fetch API");
+const getFacts= async () => {
 
-//syntax 
-//let promise = fetch(URL,[Option])
+    console.log("Getting data...");
 
-const URL = "https://cat-fact.herokuapp.com/facts";
+    let response = await fetch( URL);// bydefault we use GET fetch request
+    console.log(response.status);
+    console.log(response); //JSON format
 
-// const URL2= "http://dog-api.kinduff.com/api/facts";
-// let promise = fetch( URL);
-// console.log(promise);
+    let data = await response.json();
+    console.log(data); //usable data in Array forms
 
-const factPara =document.querySelector("#facts");
-//check # for id atribute
+    console.log(data[2]);
+    
+    console.log(data[2].text);
+    
+    factPara.innerText= data[1].text; // check the error of innerText to be null ???
+};
+btn1.addEventListener("click", getFacts);
 
-const btn1 =document.querySelector("#btn");
-// const btn2 = document.querySelector("#btn2");
+// const getDogFacts = async ()=> {
+//     console.log("Getting dog facts...");
+
+//     let response2= await fetch (URL2);
+//     console.log(response2);
+// };
+
+// btn2.addEventListener("click",getDogFacts);
