@@ -36,6 +36,10 @@ function getData (dataId, getNextData){
     getData(3); // this three output will be came instantly after 1 sec
 
 //  while this is nested call backs(callback hell) here each output will come after 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3dee1e43d648740eccd323a5a42c8dea7e224d00
 //  a time of a interval of 1 sec for each statements
 //callback hell example
 
@@ -51,4 +55,8 @@ function getData (dataId, getNextData){
                 });
             });
         });
+<<<<<<< HEAD
     });
+=======
+    });
+>>>>>>> 3dee1e43d648740eccd323a5a42c8dea7e224d00
