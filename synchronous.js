@@ -4,7 +4,9 @@ console.log("two");
 
 console.log("three");
 
-// This statements/ instructions will print in a same order as written// synchronous 
+// This statements // instructions will print in a same order instantly as written
+
+// synchronous statements
 
 function helloPrint(){
     console.log("Hello ");
@@ -13,7 +15,7 @@ function helloPrint(){
 helloPrint(); // this will print instant output
 
 setTimeout( helloPrint, 4000); // will wait for 4sec(4000 milisec) 
-
+//here we are using helloPrint as arguments to callback property
 
 //Asynchronous those instrucitons which can be done easily are printed firstly
 
@@ -32,4 +34,6 @@ setTimeout(() => {
 
 console.log("four");
 
-console.log("five"); //this all console statements will print instant then setTimout unction as per its condition
+console.log("five"); //this all console statements will print instantly  
+                    //then setTimout function as per its condition of 5 to 6 sec delay
+            
