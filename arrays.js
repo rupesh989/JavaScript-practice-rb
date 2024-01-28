@@ -54,3 +54,76 @@ for (let val of arr) {
   //   i++;
 }
 // console.log(arr);
+
+// Array Methods
+
+let resumeArr = [
+  "objective",
+  "email",
+  "skills",
+  "experience",
+  "project",
+  "gitHub",
+  "liveDemo",
+];
+console.log(resumeArr);
+
+// Push( ) : add to end
+resumeArr.push(); // need to pass value/Argument to add at end of array
+console.log(resumeArr);
+resumeArr.push("hobby");
+console.log(resumeArr);
+
+// Pop( ) : delete from end & return
+resumeArr.pop(); // can nbe used in without passing arguments
+console.log(resumeArr);
+
+// toString( ) : converts array to string
+resumeArr.toString();
+console.log(resumeArr);
+
+// Concat( ) : joins multiple arrays & returns result
+let portfolioLinkArr = ["Link", "demo", "screenShot"];
+console.log(portfolioLinkArr);
+
+let comArr = resumeArr.concat(portfolioLinkArr);
+console.log(comArr); // need to store it new arrary to get a output
+
+// Unshift( ) : add to start
+resumeArr.unshift("Name");
+console.log(resumeArr);
+
+// shift( ) : delete from start & return
+portfolioLinkArr.shift();
+console.log(portfolioLinkArr);
+
+// Slice( ) : returns a piece of the array in a new array to show output
+// slice( startIdx, endIdx )
+
+let shortArr = resumeArr.slice(1, 5);
+console.log(shortArr);
+
+// Splice( ) : change original array (add, remove, replace)
+// splice( startIdx, delCount, newEl1... )
+
+let removeARR = resumeArr.splice(3, 8);
+console.log(removeARR);
+
+// Let‘s Practice
+// Qs. Create an array to store companies -> Microsoft,“Bloomberg”,“Google”, “Uber”,“IBM”,“Netflix”
+// a. Remove the first company from the array
+// b. Remove Uber & Add Ola in its place
+// c. Add Amazon at the end
+
+// let companies = ["Microsoft", "Bloomberg", "Google", "uber", "IBM", "Netflix"];
+// console.log(companies);
+
+// let newArr = companies.shift();
+// console.log(newArr); // a  Removed the first company from the array
+// console.log(companies); //  new array of 5 index
+
+// let new1Arr = companies.splice(2, 1, "ola");
+// console.log(companies); // b Removed Uber & Added Ola in its place
+
+// let new2Arr = companies.push("Amazon");
+// console.log(companies); // c Added Amazon at the end
