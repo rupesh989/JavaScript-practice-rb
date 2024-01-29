@@ -42,3 +42,32 @@ const strb = "Bavaskar";
 for (let val in strvar) {
   console.log(val); //its print each words index value in new line like 0 1 2 3
 }
+
+// Let‘s Practice
+// Qs1. Print all even numbers from 0 to 100.
+
+for (i = 0; i <= 100; i++) {
+  if (i % 2 === 0) {
+    console.log("EVEN Numbers", i);
+  }
+}
+// Qs2. Create a game where you start with any random game number. Ask the user to keep
+// guessing the game number until the user enters correct value.
+
+// const enterNum = parseInt(prompt("Enter Your number here:"));
+// // Use parseInt for Parsing string to Integer (Because its a string input from promt func)
+
+// if (enterNum === 24) {
+//   console.log("Correct");
+// } else {
+//   console.log("INcorrect");
+// }
+
+//Other way of solving with while loop and continue prompt till correct answer
+let gameNum = 45;
+let userNum = prompt("Enter NUM");
+
+while (userNum != gameNum) {
+  userNum = prompt("Wrong Number Entered");
+}
+console.log("congratulation, Right Number ");
