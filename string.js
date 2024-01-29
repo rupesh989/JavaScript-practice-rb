@@ -38,3 +38,35 @@ console.log(tStr.trim()); //
 let concatStr = str.concat(tStr);
 console.log(concatStr);
 console.log(concatStr.trim()); // not works in-between string
+
+// str.replace( searchVal, newVal )
+let rStr = "javascript";
+console.log(rStr);
+console.log(rStr.replace("v", "b"));
+
+// str.charAt( idx ) // Returns a value at index/idx
+console.log(rStr.charAt(2));
+
+// str.slice(start, end?) // returns part of string// last value is not considered
+console.log(rStr.slice(4, 9));
+
+// Let‘s Practice
+// Qs1.
+// Prompt the user to enter their full name. Generate a username for them based on the input,
+// username will be with @, followed by their full name and ending with the fullname length.
+// eg: user name =“rupeshbavaskar”, username should be “@rupeshbavaskar14”
+
+//str is above user name
+const newStr = console.log("@" + str + str.length);
+
+//Interview Ques example
+//Reverse a string without using inbuilt functions/ brute force
+
+const exampleStr = "reactdeveloper";
+var reverseStr = "";
+for (i = exampleStr.length - 1; i >= 0; i--) {
+  reverseStr = reverseStr + exampleStr[i];
+}
+console.log(exampleStr);
+console.log(reverseStr);
+
