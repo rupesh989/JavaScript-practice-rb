@@ -1,1 +1,32 @@
+// Functions in JS
+
+// Function Definition: Block of code that performs a specific task, can be invoked whenever needed
+
+
+
+// function functionName( ) {
+
+// //do some work
+
+// }
+
+function Myfunction() {
+
+  console.log("Practice Functions");
+
+}
+
+Myfunction();
+
+
+
+//Function with parameters
+
+
+
+// function functionName( param1, param2 ...) {
+
+// //do some work
+
+// Function Call()
 
