@@ -29,4 +29,53 @@ Myfunction();
 // //do some work
 
 // Function Call()
+// function applyResume(firstName) {
+
+//   console.log(firstName);
+
+//     console.log(firstName, "Apply your resume for a job");
+
+// }
+
+
+
+// applyResume(); // undefined 'Apply your resume for a job'
+
+// applyResume(firstName);
+
+// applyResume("rupesh"); // rupesh 'Apply your resume for a job'
+
+
+
+// function addition(x, y) {
+
+//   console.log(x + y);
+
+// }
+
+
+
+// addition(); // NaN Not a Number
+
+// addition(5, 7);
+
+// Return Reserverd Keyword
+
+
+
+function sum(a, b) {
+
+  s = a + b;
+
+  return s;
+
+}
+
+sum(5, 9);
+
+
+
+// let result = sum(6, 8); //to get output we declare a result variable
+
+// console.log(result);
 
