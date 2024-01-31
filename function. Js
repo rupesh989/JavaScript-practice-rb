@@ -79,3 +79,48 @@ sum(5, 9);
 
 // console.log(result);
 
+// Arrow Functions
+
+// Compact way of writing a function
+
+
+
+// const functionName = ( param1, param2 ...) => {
+
+// //do some work
+
+// }functionName( );
+
+
+
+const mul = (p, q) => {
+
+  return p * q;
+
+};
+
+// mul(4,6); // We need to pass this in consolelog to get mul result
+
+console.log(mul(4, 6));
+
+
+
+function subFunc(s, d) {
+
+  return console.log(s - d); // to return take consolelog
+
+}
+
+subFunc(89, 40);
+
+
+
+const sub = (j, l) => {
+
+  return j - l;
+
+};
+
+console.log(sub(45, 34));
+
+
