@@ -185,11 +185,8 @@ const arrowWordStr = (str) => {
       val === "u"
 
     ) {
-
       count++;
-
     }
-
   }
 
   console.log(count);
@@ -198,3 +195,25 @@ const arrowWordStr = (str) => {
 
 arrowWordStr("reactdeveloper"); // 6 vowels
 wordstr("bavaskar"); //3 vowels
+
+// forEach Loop in Arrays
+// arr.forEach( callBackFunction )
+
+// CallbackFunction : Here, it is a function to execute for each element in the array
+// *A callback is a function passed as an argument to another function.*
+
+// arr.forEach( ( val ) => {
+// console.log(val);
+// } )
+
+// Let‘s Practice
+// Qs. For a given array of numbers, print the square of each value using the forEach loop.
+let arr = [3, 4, 5, 6];
+console.log(arr);
+
+// let i = 0;
+arr.forEach((val) => {
+  val = val ** 2;
+  console.log("Square is " + val);
+});
+
