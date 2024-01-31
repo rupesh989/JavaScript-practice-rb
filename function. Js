@@ -164,5 +164,37 @@ function wordstr(str) {
 
 wordstr("rupesh"); //2 vowels
 
-wordstr("bavaskar"); //3 vowels
+// Qs. Create an arrow function to perform the same task.
 
+const arrowWordStr = (str) => {
+
+  let count = 0;
+
+  for (let val of str) {
+
+    if (
+
+      val === "a" ||
+
+      val === "e" ||
+
+      val === "i" ||
+
+      val === "o" ||
+
+      val === "u"
+
+    ) {
+
+      count++;
+
+    }
+
+  }
+
+  console.log(count);
+
+};
+
+arrowWordStr("reactdeveloper"); // 6 vowels
+wordstr("bavaskar"); //3 vowels
