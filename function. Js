@@ -124,3 +124,45 @@ const sub = (j, l) => {
 console.log(sub(45, 34));
 
 
+// Let‘s Practice
+
+// Qs. Create a function using the “function” keyword that takes a String as an argument &
+
+// returns the number of vowels in the string.
+
+
+
+function wordstr(str) {
+
+  let count = 0;
+
+  for (let val of str) {
+
+    if (
+
+      val === "a" ||
+
+      val === "e" ||
+
+      val === "i" ||
+
+      val === "o" ||
+
+      val === "u"
+
+    ) {
+
+      count++;
+
+    }
+
+  }
+
+  console.log(count);
+
+}
+
+wordstr("rupesh"); //2 vowels
+
+wordstr("bavaskar"); //3 vowels
+
