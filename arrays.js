@@ -1,5 +1,4 @@
 // Arrays
-
 // Collections of items
 
 // Create Array
@@ -28,7 +27,6 @@ let info = ["Rupesh", 24, "pune", "ReactDeveloper"];
 // Looping over an Array
 // Print all elements of an array
 
-// Let‘s Practice
 // Qs.1 Find the average marks of the entire class.
 // For a given array with marks of students -> [85, 97, 44, 37, 76, 60]
 

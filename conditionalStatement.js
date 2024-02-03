@@ -1,4 +1,3 @@
-//Interview Question files
 // 1 FizzBuzz divisible check
 // for (i = 0; i < 16; i++) {
 //   if (i % 3 === 0 && i % 5 !== 0) {
