@@ -27,3 +27,43 @@ console.log(education); // only one value remain in whole block of code
 // Under score can be used in variable name like rupesh_Bavaskar
 // Use camelCase Notation for longname like firstName, lastName, userName
 // variables are case sensitive "a" and "A" will be different values
+
+// Examples
+// let skill = "html";
+
+// console.log(skill);
+// var empol = "react";
+// var empol = "angular";
+// var empol = "Javascript";
+
+// console.log(empol);
+
+// const A=34;
+// const A= 56;
+
+// Let‘s Practice
+
+// Qs1. Create a const object called “developer” to store information shown in the resume.
+
+const developer = {
+  firstName: "Rupesh",
+  lastName: "Bavaskar",
+  graduation: "CSE",
+  experience: 25,
+  position: "React Developer",
+};
+console.log(`This is information of this selected profile`, developer);
+
+// Qs2. Create a const object called “profile” to store 5 information
+//      shown in your linkedin profile
+
+const profile = {
+  firstName: "Rupesh",
+  lastName: "Bavaskar",
+  college: "SATI",
+  experience: 2,
+  position: "Graduate Trainee Engineer",
+  jobLocation: "Pune",
+};
+
+console.log(profile);
