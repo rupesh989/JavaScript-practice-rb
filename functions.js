@@ -55,6 +55,7 @@ function sum(a, b) {
 
 sum(5, 9);
 
+console.log(sum(5, 9));
 // let result = sum(6, 8); //to get output we declare a result variable
 
 // console.log(result);
